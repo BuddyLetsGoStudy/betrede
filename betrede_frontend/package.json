@@ -1,0 +1,48 @@
+{
+  "name": "betrede_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "first-person-controls": "^1.0.1",
+    "jquery": "^3.3.1",
+    "orbit-controls-es6": "^2.0.0",
+    "popper.js": "^1.14.7",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.3",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "three": "^0.101.1",
+    "three-firstperson-vr-controls": "^0.2.0",
+    "three-pointerlock": "0.0.2",
+    "threejs-controls": "^1.0.6",
+    "webglearth2_npm_package": "^1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start-max": "node --max-old-space-size=8192 node_modules/react-native/local-cli/cli.js start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0"
+  }
+}
